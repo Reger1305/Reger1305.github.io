@@ -1,0 +1,41 @@
+body{
+margin: 0;
+}
+.hat{
+	background: black;
+	justify-content: space-between;
+	display: flex;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 300px;
+	padding-left: 300px;
+}
+.hat a{
+	color:white;
+	font-size: 22px;
+	text-decoration: none;
+}
+.promo{
+	height: 600px;
+	background: url(img/img-1.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
+}
+
+h1{
+	font-size: 40px;
+	text-align: center;
+}
+p{
+	font-size: 22px;
+	padding-left: 300px;
+	padding-right: 300px;
+	text-align: justify;
+}
+.footer{
+	background: black;
+	color: white;
+	text-align: center;
+	padding-bottom: 50px;
+	padding-top: 30px;
+}

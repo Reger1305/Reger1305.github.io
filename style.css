@@ -1,0 +1,38 @@
+h1{
+	transform-style: center;
+}
+*{
+	font-family: sans-serif;
+}
+body{
+	margin: 0;
+}
+.box{
+display: flex;
+justify-content: space-between;
+padding: 30px 250px;
+}
+.box_link{
+display: block;
+border: 2px solid lightgray;
+background-color: white;
+width: 500px;
+height: 350px;
+text-decoration: none;
+color: black;
+text-align: center;
+border-radius: 10px;
+transition: 0.3s
+}
+.box_link img{
+height: 200px;
+}
+.box_link h2{
+	
+}
+.box_link:hover{
+border: 2px solid gray;
+border-radius: 20px;
+box-shadow: 10px 10px 10px gray;
+transform: scale(1.05);
+}
